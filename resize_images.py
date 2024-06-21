@@ -8,7 +8,7 @@ def resize_image(input_path, output_path, size):
 
 def resize_images_in_directory(directory, size):
     for filename in os.listdir(directory):
-        if filename.endswith(".png") or filename.endswith(".jpg") or filename.endswith(".jpeg"):
+        if filename.endswith(".png") or filename.endswith(".jpg") or filename.endswith(".jpeg") or filename.endwith(".webp") or filename.endwith(".jfif"):
             input_path = os.path.join(directory, filename)
             output_path = os.path.join(directory, filename)
             resize_image(input_path, output_path, size)
