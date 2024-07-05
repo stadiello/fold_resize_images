@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="resize_images",
+    name="fold_resize_images",
     version="0.1.0",
     description="A simple tool to resize images in a directory.",
     author="Tadiello Sébastien",
