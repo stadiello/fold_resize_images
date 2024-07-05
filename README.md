@@ -16,5 +16,5 @@ pip install resize-image
 ## Usage :
 
 ``` sh
-fold-resize-images -d "path/to/directory" -w 150 -h 150
+fold-resize-images -d "path/to/directory" -W 150 -H 150
 ```
