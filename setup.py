@@ -7,7 +7,7 @@ setup(
     author="Tadiello Sébastien",
     author_email="sebastientadiello@gmail.com",
     homepage="https://github.com/sebastientadiello/fold-resize-images",
-    license="MIT License",
+    # license="MIT License",
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     install_requires=[
