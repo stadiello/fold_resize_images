@@ -21,6 +21,9 @@ dependencies = [
     "Pillow"
 ]
 
+[project.license]
+text = "MIT License"
+
 [project.optional-dependencies]
 test = [
     "pytest"
