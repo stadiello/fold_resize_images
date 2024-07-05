@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fold_resize_images"
-version = "1.0.0"
+version = '{{VERSION_PLACEHOLDER}}'
 description = "A simple tool to resize images in a directory."
 authors = [
     { name = "Tadiello Sebastien", email = "sebastientadiello@gmail.com" }

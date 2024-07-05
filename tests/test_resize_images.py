@@ -1,5 +1,5 @@
 import unittest
-from src.resize_images import resize_image
+from src.fold_resize_images import resize_image
 from PIL import Image
 import os
 
