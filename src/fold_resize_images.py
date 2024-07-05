@@ -18,8 +18,8 @@ def resize_images_in_directory(directory, size):
 def main():
     parser = argparse.ArgumentParser(description="Resize images in a directory.")
     parser.add_argument("-d", "--directory", type=str, required=True, help="The directory containing images to resize.")
-    parser.add_argument("-w", "--width", type=int, required=True, help="The width to resize images to.")
-    parser.add_argument("-h", "--height", type=int, required=True, help="The height to resize images to.")
+    parser.add_argument("-W", "--width", type=int, required=True, help="The width to resize images to.")
+    parser.add_argument("-H", "--height", type=int, required=True, help="The height to resize images to.")
     
     args = parser.parse_args()
     
