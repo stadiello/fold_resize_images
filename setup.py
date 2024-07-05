@@ -6,7 +6,10 @@ setup(
     description="A simple tool to resize images in a directory.",
     author="Tadiello Sébastien",
     author_email="sebastientadiello@gmail.com",
-    packages=find_packages(),
+    homepage="https://github.com/sebastientadiello/fold-resize-images",
+    license="MIT",
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
     install_requires=[
         "Pillow"
     ],
@@ -20,5 +23,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.9',
 )
