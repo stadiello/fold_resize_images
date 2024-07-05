@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "fold_resize_images"
 version = '{{VERSION_PLACEHOLDER}}'
@@ -17,9 +21,24 @@ dependencies = [
     "Pillow"
 ]
 
+[project.license]
+text = "MIT License"
+
+[project.optional-dependencies]
+test = [
+    "pytest"
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+    "test_resize_images.py"
+]
+
 [project.scripts]
 fold-resize-images = "src.fold_resize_images:main"
-
 
 [project.urls]
 Homepage = "https://github.com/sebDtSci/fold_resize_images"
