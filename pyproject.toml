@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.scripts]
-fold-resize-images = "src.fold_resize_images:main"
+fold-resize-images = "fold_resize_images:main"
 
 
 [project.urls]
