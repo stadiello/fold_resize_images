@@ -10,6 +10,11 @@ setup(
     install_requires=[
         "Pillow"
     ],
+    entry_points={
+        'console_scripts': [
+            'fold-resize-images=src.fold_resize_images:main',
+        ],
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
