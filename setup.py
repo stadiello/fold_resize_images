@@ -4,8 +4,8 @@ setup(
     name="resize_images",
     version="0.1.0",
     description="A simple tool to resize images in a directory.",
-    author="Votre Nom",
-    author_email="votre.email@example.com",
+    author="Tadiello Sébastien",
+    author_email="sebastientadiello@gmail.com",
     packages=find_packages(),
     install_requires=[
         "Pillow"
