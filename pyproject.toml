@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "resize_images"
+name = "fold_resize_images"
 version = "1.0.0"
 description = "A simple tool to resize images in a directory."
 authors = [
@@ -35,4 +35,4 @@ testpaths = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/sebDtSci/resize-image"
+Homepage = "https://github.com/sebDtSci/fold_resize_images"
