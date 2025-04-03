@@ -22,4 +22,4 @@ fold-resize-images = "fold_resize_images:main"
 
 
 [project.urls]
-Homepage = "https://github.com/sebDtSci/fold_resize_images"
+Homepage = "https://github.com/stadiello/fold_resize_images"
